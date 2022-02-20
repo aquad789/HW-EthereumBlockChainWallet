@@ -14,7 +14,7 @@ from web3 import Account, Web3
 from web3 import middleware
 from web3.gas_strategies.time_based import medium_gas_price_strategy
 
-#w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:7545'))
+w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:7545'))
 
 ################################################################################
 # Wallet functionality
