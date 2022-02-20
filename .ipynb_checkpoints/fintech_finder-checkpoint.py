@@ -148,7 +148,7 @@ account = generate_account()
 
 # Write the client's Ethereum account address to the sidebar
 
-st.sidebar.write
+#st.sidebar.write
 st.sidebar.write(account.address)
 
 ##########################################

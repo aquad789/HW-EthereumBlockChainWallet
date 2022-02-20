@@ -28,7 +28,7 @@ def generate_account():
     wallet = Wallet(mnemonic)
 
     # Derive Ethereum Private Key
-    private, public = wallet.derive_account("eth")
+    private, public = wallet.derive_account("eth", address_index=1)
 
     # Convert private key into an Ethereum account
     account = Account.privateKeyToAccount(private)
